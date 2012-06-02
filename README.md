@@ -7,3 +7,11 @@ Some AVR code that I wrote for my ATMEL ATMega32 based board. Code is in Assembl
 
 The Assembly folder contains include folder that has the .inc files for all supported AVRs by the AVR assembler. They can be found in any release of AVR Studio. This one was taken from AVR Studio 5.
 
+##Assembler setup
+
+###Mac OS X Lion 10.7.3+
+Install Mac Homebrew or Macports. I prefer Homebrew, it's much cleaner.
+
+```
+$ brew install avra
+```
