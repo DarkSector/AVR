@@ -21,7 +21,7 @@ If you're an open source maniac and do things from ground up then you can downlo
 
 If you're not mental about it, you can just download [AVR Studio](http://www.atmel.com/microsite/atmel_studio6/) and get things done. 
 
-####NOTE: for AVR Studio you need to remove the .INCLUDE line, it automatically does that inclusion for you.
+#####NOTE: for AVR Studio you need to remove the .INCLUDE line, it automatically does that inclusion for you.
 
 
 ###Linux
