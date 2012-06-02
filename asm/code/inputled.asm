@@ -4,7 +4,7 @@
 ;TAKE THE INPUT FROM PORTD AND OUTPUT IT ON PORTC
 ;DELAY NOT REQUIRED
 
-.INC "../include/m32def.inc"
+.INCLUDE "../include/m32def.inc"
 
 .ORG 0
 .EQU MYREG = R16
