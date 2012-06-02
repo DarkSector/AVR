@@ -30,3 +30,6 @@ If you have a Debian based linux box you can just download the package from apti
 $ sudo aptitude install avra
 ```
 Otherwise you can build it. You need to grab the source and build it yourself. It's not that hard.
+
+##Assembler tutorial
+I haven't got around to writing my own tutorials yet, but here's a guide that can help you with that. It's by ATMEL. You can find it [here](http://www.atmel.com/Images/doc1022.pdf)
