@@ -1,9 +1,5 @@
-/*
- * Bitcheck.asm
- *
- *  Created: 6/2/2012 2:51:34 PM
- *   Author: DarkSector
- */
+ ;Author: Pronoy Chopra
+ ;Bitcheck.asm
 
  .INCLUDE "../../include/m32def.inc"
 
