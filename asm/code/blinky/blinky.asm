@@ -1,7 +1,7 @@
 ;AUTHOR: PRONOY CHOPRA
 ;WEBSITE: http://www.pronoy.in
 
-.INCLUDE "../include/m32def.inc"
+.INCLUDE "../../include/m32def.inc"
 
 ;PORTC HAS 8 LEDS
 ;DELAY REQUIRED
