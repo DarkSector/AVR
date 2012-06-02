@@ -7,7 +7,7 @@
 .INCLUDE "../../include/m32def.inc"
 
 .ORG 0
-.EQU MYREG = R16
+.DEF MYREG = R16
 .EQU FULL = 0xFF
 .EQU ZERO = 0x00
 
