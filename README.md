@@ -14,6 +14,7 @@ Install Mac Homebrew or Macports. I prefer Homebrew, it's much cleaner.
 
 ```
 $ brew install avra
+$ brew install avr-gcc avrdude avr-libc libusb
 ```
 
 ###Windows XP+
@@ -27,7 +28,7 @@ If you're not mental about it, you can just download [AVR Studio](http://www.atm
 ###Linux
 If you have a Debian based linux box you can just download the package from aptitude
 ```
-$ sudo aptitude install avra
+$ sudo aptitude install avra avr-libc avr-gcc avrdude
 ```
 Otherwise you can build it. You need to grab the source and build it yourself. It's not that hard.
 
