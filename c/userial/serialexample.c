@@ -26,7 +26,7 @@ int main(void) {
 	while(1) {
 		
 		while(!(UCSRA & (1 << RXC))) {
-			SerialWrite('Hello');
+			SerialWrite('A');
 			_delay_ms(100);			
 		}
 	}
