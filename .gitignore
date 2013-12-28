@@ -4,3 +4,8 @@
 *.elf
 *.conf
 *.o
+*.bin
+*.lst
+*.map
+*.srec
+
