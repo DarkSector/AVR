@@ -1,7 +1,7 @@
 #NOTE: This file changes the fuse values of the chip to enable brown-out detection.
 #fuse settings are hard-coded into the bottom lines; change them only with care.
 
-PRG            = serialexample
+PRG            = seriallong
 OBJ            = $(PRG).o
 MCU_TARGET     = attiny2313 
 PROGRAMMER     = avrispmkII#usbtiny
@@ -30,6 +30,7 @@ all: $(PRG).elf lst text eeprom
 
 $(PRG).elf: $(OBJ)
 	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $^ $(LIBS)
+
 
 clean:
 	rm -rf *.o $(PRG).elf *.eps *.png *.pdf *.bak *.hex *.bin *.srec
@@ -88,4 +89,6 @@ erase:
 	 
 # Original fuse settings: 	
 #	 -U lfuse:w:0x64:m  -U hfuse:w:0xDF:m	-U efuse:w:0xff:m	
-	
+
+# compile:
+# 	avr-gcc -g -Os -mmcu=$(MCU_TARGET) -c $(PRG).c -v
