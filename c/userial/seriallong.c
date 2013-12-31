@@ -16,6 +16,11 @@ void SerialWrite(char s[]){
 		usart_send(s[i]);
 		i++;		
 	}
+	if (s[i] == 0x00){
+		// if it's the last element
+		// send \n
+		usart_send('\n');
+	}
 }
 
 void usart_send(unsigned char DataPacket){
@@ -31,14 +36,13 @@ int main(void){
 	UCSRA |= (1 << U2X);  //Baud to be used: 19200 on the client side
 	UCSRB |= (1 << TXEN); //| (1 << RXEN);
 	UCSRC |= (1 << UCSZ1) | (1 << UCSZ0);
-	//UCSRC = (3<<UCSZ0);  
-	if(!(UCSRA & (1 << RXC))) {		
-		SerialWrite(String);
-	}
+
+	
 	while(1){
-		
-		
-		
+		if(!(UCSRA & (1 << RXC))) {		
+			SerialWrite(String);
+		}
+	
 	}
 	
 	return 0;
