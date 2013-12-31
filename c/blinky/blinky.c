@@ -5,14 +5,14 @@
 
 int main(void) {
 	
-	DDRB |= _BV(DDB4);
+	DDRB |= (1 << DDB4);
 	
 	while(1) {
 		
-		PORTB |= _BV(PORTB4);
-		_delay_ms(1000);
-		PORTB &= ~(PORTB);
-		_delay_ms(1000);
+		PORTB = (1 << PORTB4);
+		_delay_ms(100);
+		PORTB = (0 << PORTB);
+		_delay_ms(100);
 	}
 	return 0;
 }
