@@ -34,7 +34,7 @@ int main(void){
 	
 	// Set INT0 as high
 	GIMSK = (1 << INT1);
-	
+	MCUCR = ()
 	while(1){
 		if (flag == 0xff){
 			led_blink(1000);
