@@ -11,7 +11,7 @@ int main(void) {
 		
 		PORTB = (1 << PORTB4);
 		_delay_ms(100);
-		PORTB = (0 << PORTB);
+		PORTB = (0 << PORTB4);
 		_delay_ms(100);
 	}
 	return 0;
