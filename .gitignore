@@ -8,4 +8,4 @@
 *.lst
 *.map
 *.srec
-
+.DS_STORE
