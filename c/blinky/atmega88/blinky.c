@@ -1,18 +1,18 @@
 #define F_CPU 8000000UL
 
 #include <avr/io.h>
-#include <util/delay.h>
+#include "blinkyutils.h"
+#include "customutils.h"
 
 int main(void) {
 	
-	DDRB |= (1 << DDB0);
+	led_setup();
 	
 	while(1) {
-		
-		PORTB = (1 << PORTB0);
-		_delay_ms(100);
-		PORTB = (0 << PORTB0);
-		_delay_ms(100);
+		led_on();
+		delay_ms(1000);
+		led_off();
+		delay_ms(500);	
 	}
 	return 0;
 }
