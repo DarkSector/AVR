@@ -7,6 +7,17 @@ Some AVR code that I wrote for my ATMEL ATMega32 based board. Code is in Assembl
 
 The Assembly folder contains include folder that has the .inc files for all supported AVRs by the AVR assembler. They can be found in any release of AVR Studio. This one was taken from AVR Studio 5.
 
+##C Templates
+
+###Windows
+Just use Atmel Studio. That's good enough
+
+###Linux
+Sorry, nothing for that yet
+
+###Mac OS X
+You should be using X-AVR. [Simply follow these instructions and get it working. It's worth it.](https://github.com/jawher/xavr)
+
 ##Assembler setup
 
 ###Mac OS X Lion 10.7.3+
