@@ -52,11 +52,11 @@ See the layer with flip flops. The logical circuts? That's where you need the cl
 | Layer 						    | 
 |-----------------------------------|
 | Resistors, Capacitors, Inductors  |
-|-----------------------------------|
+| --------------------------------- |
 | Transistors, MOSFETS              |
-|-----------------------------------|
+| --------------------------------- |
 | Logic gates                       |
-|-----------------------------------|
+| --------------------------------- |
 | Logical circuits like Flip Flops  |
 |-----------------------------------|
 | Registers, timers, counters,      |
