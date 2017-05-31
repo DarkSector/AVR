@@ -1,8 +1,8 @@
 # Controller Internals
 
 So controllers usually have the following common things:
- * [ALU](#ALU)
- * [Registers](#Registers)
+ * [ALU](#alu)
+ * [Registers](#registers)
  * [Counters](#counters)
  * [Buses](#buses)
  * [Memory](#memory)
