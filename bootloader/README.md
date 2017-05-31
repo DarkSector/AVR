@@ -8,5 +8,4 @@ An exercise in understanding what goes into writing a bootloader and why is it r
 
 ## How?
 
-A lot will be borrowed from existing bootloaders (obviously) but that will only be done later. Right now, simply creation of our simple bootloader is the object.
-
+A lot will be borrowed from existing bootloaders (obviously) but that will only be done later. Right now, simply creation of our simple bootloader is the objective.

@@ -19,6 +19,6 @@ Quick review of what we'll be using.
 |-------|-------|-------|-------|-------|-------|-------|-------|
 |	1   |   0   |   1   |    0  |   1   |   1   |    1  |   0   |
 
-Bit 0-3: Lower Nybble
-Bit 4-7: Higher Nybble
-Bit 0-7: Byte (or a word for an 8 bit controller)
+* Bit 0-3: Lower Nybble
+* Bit 4-7: Higher Nybble
+* Bit 0-7: Byte (or a word for an 8 bit controller)
