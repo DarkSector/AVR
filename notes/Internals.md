@@ -69,4 +69,3 @@ See the layer with flip flops. The logical circuts? That's where you need the cl
 | Phones, computers, devices etc.   |
 |-----------------------------------|
 | Your dick pics.                   |
-|-----------------------------------|
