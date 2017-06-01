@@ -31,7 +31,7 @@ $ brew install avr-gcc avrdude avr-libc libusb
 #### Windows XP+
 If you're an open source maniac and do things from ground up then you can download the [AVR Assembler from Sourceforge](http://sourceforge.net/projects/avra/)
 
-If you're not mental about it, you can just download [AVR Studio](http://www.atmel.com/microsite/atmel_studio6/) and get things done. 
+If you're not mental about it, you can just download [ATMEL Studio](https://www.microchip.com/development-tools/atmel-studio-7) and get things done. 
 
 ##### NOTE: for AVR Studio you need to remove the .INCLUDE line, it automatically does that inclusion for you.
 
